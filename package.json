@@ -1,0 +1,53 @@
+{
+  "name": "template-vite-solid-ts",
+  "version": "0.0.0-development",
+  "description": "",
+  "license": "MIT",
+  "author": "0x219",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preinstall": "npx -y only-allow pnpm",
+    "preview": "vite preview"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{css,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "eslint",
+      "prettier --write"
+    ],
+    "package.json": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "solid-app-router": "0.1.13",
+    "solid-js": "1.2.5",
+    "solid-transition-group": "0.0.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "15.0.0",
+    "@commitlint/config-conventional": "15.0.0",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "eslint": "8.3.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "7.0.4",
+    "lint-staged": "12.1.2",
+    "prettier": "2.5.0",
+    "sort-package-json": "1.53.1",
+    "typescript": "4.5.2",
+    "vite": "2.6.14",
+    "vite-plugin-mkcert": "1.5.2",
+    "vite-plugin-solid": "2.1.2",
+    "vite-tsconfig-paths": "3.3.17"
+  }
+}

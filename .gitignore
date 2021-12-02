@@ -1,0 +1,11 @@
+# misc
+.DS_Store
+
+# eidtor
+.idea
+
+# npm
+node_modules
+
+# log
+*.log
