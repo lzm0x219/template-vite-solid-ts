@@ -20,7 +20,7 @@ specifiers:
   typescript: 4.5.2
   vite: 2.6.14
   vite-plugin-mkcert: 1.5.2
-  vite-plugin-solid: 2.1.2
+  vite-plugin-solid: 2.1.3
   vite-tsconfig-paths: 3.3.17
 
 dependencies:
@@ -45,7 +45,7 @@ devDependencies:
   typescript: 4.5.2
   vite: 2.6.14
   vite-plugin-mkcert: 1.5.2
-  vite-plugin-solid: 2.1.2
+  vite-plugin-solid: 2.1.3
   vite-tsconfig-paths: 3.3.17_vite@2.6.14
 
 packages:
@@ -3079,11 +3079,14 @@ packages:
   /solid-js/1.2.5:
     resolution: {integrity: sha512-XcPEULgqd/XbBu8LwtGWs5RGowvIpq88/ZNI/xgJ9PaxRJWwbVlSNsS+ywUWncxRdKsPoVe8vdcIsH4gBJjh3Q==}
 
-  /solid-refresh/0.2.2_solid-js@1.2.5:
-    resolution: {integrity: sha512-oQN3pUJ8fBd4ldMxZVqK7S4PGzAn1yx1B5bRRfANoxoqmHyY2QLfzrOzXsYnAkhh272K+W24oKgFWlmdUZ6HtQ==}
+  /solid-refresh/0.3.1_solid-js@1.2.5:
+    resolution: {integrity: sha512-mPAfBAoPcdf+EB7dQGireqgKAwyLtQmF4gxXOg3Hzhh7U21MPzdLQ7VK1GR5LWQDL6AYTWmPOA2VQHjPlDHlAw==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
+      '@babel/generator': 7.16.0
+      '@babel/helper-module-imports': 7.16.0
+      '@babel/types': 7.16.0
       solid-js: 1.2.5
     dev: true
 
@@ -3438,15 +3441,15 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid/2.1.2:
-    resolution: {integrity: sha512-SK6tzjv1H+dCSItnjCHfrPX5FGiQ8btMTdw0apsYAB1BAQvAEoi5pKS+3aHF96X7IL7RlUN8DB1KgpNW8m5vQA==}
+  /vite-plugin-solid/2.1.3:
+    resolution: {integrity: sha512-OhF90fQ9NwMBlhug1ESrO0n55OPV4LEgkE4WFiC6Z2+DGfb2k9GnQPDjVhZzybjTCfqeOW8gi2Go3U43wsSQdA==}
     dependencies:
       '@babel/core': 7.16.0
       '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
       babel-preset-solid: 1.2.5_@babel+core@7.16.0
       merge-anything: 4.0.2
       solid-js: 1.2.5
-      solid-refresh: 0.2.2_solid-js@1.2.5
+      solid-refresh: 0.3.1_solid-js@1.2.5
       vite: 2.6.14
     transitivePeerDependencies:
       - less
