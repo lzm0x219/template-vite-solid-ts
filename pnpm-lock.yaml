@@ -13,7 +13,7 @@ specifiers:
   husky: 7.0.4
   lint-staged: 12.1.2
   prettier: 2.5.1
-  solid-app-router: 0.1.13
+  solid-app-router: 0.1.14
   solid-js: 1.2.5
   solid-transition-group: 0.0.8
   sort-package-json: 1.53.1
@@ -24,7 +24,7 @@ specifiers:
   vite-tsconfig-paths: 3.3.17
 
 dependencies:
-  solid-app-router: 0.1.13_solid-js@1.2.5
+  solid-app-router: 0.1.14_solid-js@1.2.5
   solid-js: 1.2.5
   solid-transition-group: 0.0.8_solid-js@1.2.5
 
@@ -3068,8 +3068,8 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /solid-app-router/0.1.13_solid-js@1.2.5:
-    resolution: {integrity: sha512-tO6JNmKQ3c1P8c3Rzea6r93AzqIctaS5okbfwyfw1pp5gnX4stAeS9kz/xQfXnycrlMGskbql2w7AuR6b2Nu7g==}
+  /solid-app-router/0.1.14_solid-js@1.2.5:
+    resolution: {integrity: sha512-fnX+jCB5sDMbjq3od9qGtQNdlvHP2c6DG5STvMHVXyNuSEN+MdO7WJtZ58OpVpq6zWS4FYeYAh7NMEa7C2CcOA==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:

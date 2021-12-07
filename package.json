@@ -26,7 +26,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
-    "solid-app-router": "0.1.13",
+    "solid-app-router": "0.1.14",
     "solid-js": "1.2.5",
     "solid-transition-group": "0.0.8"
   },
