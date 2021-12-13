@@ -18,7 +18,7 @@ specifiers:
   solid-transition-group: 0.0.8
   sort-package-json: 1.53.1
   typescript: 4.5.3
-  vite: 2.7.1
+  vite: 2.7.2
   vite-plugin-mkcert: 1.5.2
   vite-plugin-solid: 2.1.4
   vite-tsconfig-paths: 3.3.17
@@ -43,10 +43,10 @@ devDependencies:
   prettier: 2.5.1
   sort-package-json: 1.53.1
   typescript: 4.5.3
-  vite: 2.7.1
+  vite: 2.7.2
   vite-plugin-mkcert: 1.5.2
   vite-plugin-solid: 2.1.4
-  vite-tsconfig-paths: 3.3.17_vite@2.7.1
+  vite-tsconfig-paths: 3.3.17_vite@2.7.2
 
 packages:
 
@@ -3455,7 +3455,7 @@ packages:
       merge-anything: 4.0.2
       solid-js: 1.2.6
       solid-refresh: 0.3.2_solid-js@1.2.6
-      vite: 2.7.1
+      vite: 2.7.2
     transitivePeerDependencies:
       - less
       - sass
@@ -3463,7 +3463,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.3.17_vite@2.7.1:
+  /vite-tsconfig-paths/3.3.17_vite@2.7.2:
     resolution: {integrity: sha512-wx+rfC53moVLxMBj2EApJZgY6HtvWUFVZ4dBxNGYBxSSqU6UaHdKlcOxrfGDxyTGtYEr9beWCryHn18C4EtZkg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3472,13 +3472,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.12.0
-      vite: 2.7.1
+      vite: 2.7.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.7.1:
-    resolution: {integrity: sha512-TDXXhcu5lyQ6uosK4ZWaOyB4VzOiizk0biitRzDzaEtgSUi8rVYPc4k1xgOjLSf0OuceDJmojFKXHOX9DB1WuQ==}
+  /vite/2.7.2:
+    resolution: {integrity: sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
