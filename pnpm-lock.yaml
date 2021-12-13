@@ -14,7 +14,7 @@ specifiers:
   lint-staged: 12.1.2
   prettier: 2.5.1
   solid-app-router: 0.1.14
-  solid-js: 1.2.5
+  solid-js: 1.2.6
   solid-transition-group: 0.0.8
   sort-package-json: 1.53.1
   typescript: 4.5.3
@@ -24,9 +24,9 @@ specifiers:
   vite-tsconfig-paths: 3.3.17
 
 dependencies:
-  solid-app-router: 0.1.14_solid-js@1.2.5
-  solid-js: 1.2.5
-  solid-transition-group: 0.0.8_solid-js@1.2.5
+  solid-app-router: 0.1.14_solid-js@1.2.6
+  solid-js: 1.2.6
+  solid-transition-group: 0.0.8_solid-js@1.2.6
 
 devDependencies:
   '@commitlint/cli': 15.0.0
@@ -3068,21 +3068,16 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /solid-app-router/0.1.14_solid-js@1.2.5:
+  /solid-app-router/0.1.14_solid-js@1.2.6:
     resolution: {integrity: sha512-fnX+jCB5sDMbjq3od9qGtQNdlvHP2c6DG5STvMHVXyNuSEN+MdO7WJtZ58OpVpq6zWS4FYeYAh7NMEa7C2CcOA==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.2.5
-    dev: false
-
-  /solid-js/1.2.5:
-    resolution: {integrity: sha512-XcPEULgqd/XbBu8LwtGWs5RGowvIpq88/ZNI/xgJ9PaxRJWwbVlSNsS+ywUWncxRdKsPoVe8vdcIsH4gBJjh3Q==}
+      solid-js: 1.2.6
     dev: false
 
   /solid-js/1.2.6:
     resolution: {integrity: sha512-NvPHJ5Vj5f+ZJWIioickrC55seovSkDtm5NzSpnoUk3z4tATv0STpy5iuGNEn51ZORUcwpZzrMAtOCGziXU1XA==}
-    dev: true
 
   /solid-refresh/0.3.2_solid-js@1.2.6:
     resolution: {integrity: sha512-7lg3EjenGoxQvGoZnTD3d480wBxbpAiAsyk0dhoGq6hjcaAQ3vnsBGxvXV0LBTzeQcGmIRz1GeSsw/64YyNr+g==}
@@ -3095,12 +3090,12 @@ packages:
       solid-js: 1.2.6
     dev: true
 
-  /solid-transition-group/0.0.8_solid-js@1.2.5:
+  /solid-transition-group/0.0.8_solid-js@1.2.6:
     resolution: {integrity: sha512-5cS/Ircfs/Y0J00oEToL+MWd9V07KgQlw+qRD8kpd6azb2Ri5SjXg/ocqT8U8Wgdx1VQPx45HyopQN+UumkVGQ==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.2.5
+      solid-js: 1.2.6
     dev: false
 
   /sort-object-keys/1.1.3:
