@@ -18,7 +18,7 @@ specifiers:
   solid-transition-group: 0.0.8
   sort-package-json: 1.53.1
   typescript: 4.5.3
-  vite: 2.7.2
+  vite: 2.7.7
   vite-plugin-mkcert: 1.5.2
   vite-plugin-solid: 2.1.4
   vite-tsconfig-paths: 3.3.17
@@ -43,10 +43,10 @@ devDependencies:
   prettier: 2.5.1
   sort-package-json: 1.53.1
   typescript: 4.5.3
-  vite: 2.7.2
+  vite: 2.7.7
   vite-plugin-mkcert: 1.5.2
   vite-plugin-solid: 2.1.4
-  vite-tsconfig-paths: 3.3.17_vite@2.7.2
+  vite-tsconfig-paths: 3.3.17_vite@2.7.7
 
 packages:
 
@@ -2853,8 +2853,8 @@ packages:
       find-up: 2.1.0
     dev: true
 
-  /postcss/8.4.4:
-    resolution: {integrity: sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==}
+  /postcss/8.4.5:
+    resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.1.30
@@ -3491,7 +3491,7 @@ packages:
       merge-anything: 4.0.2
       solid-js: 1.2.6
       solid-refresh: 0.3.2_solid-js@1.2.6
-      vite: 2.7.2
+      vite: 2.7.7
     transitivePeerDependencies:
       - less
       - sass
@@ -3499,7 +3499,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.3.17_vite@2.7.2:
+  /vite-tsconfig-paths/3.3.17_vite@2.7.7:
     resolution: {integrity: sha512-wx+rfC53moVLxMBj2EApJZgY6HtvWUFVZ4dBxNGYBxSSqU6UaHdKlcOxrfGDxyTGtYEr9beWCryHn18C4EtZkg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3508,13 +3508,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.1
       tsconfig-paths: 3.12.0
-      vite: 2.7.2
+      vite: 2.7.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.7.2:
-    resolution: {integrity: sha512-wMffVVdKZRZP/HwW3yttKL8X+IJePz7bUcnGm0vqljffpVwHpjWC3duZtJQHAGvy+wrTjmwU7vkULpZ1dVXY6w==}
+  /vite/2.7.7:
+    resolution: {integrity: sha512-Nm4ingl//gMSj/p1aCBHuTc5Fd8W8Mwdci/HUvqCVq8xaJqF7z08S/LRq1M9kS0jRfJk1/f/CwUyQAr6YgsOLw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -3530,7 +3530,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.13.15
-      postcss: 8.4.4
+      postcss: 8.4.5
       resolve: 1.20.0
       rollup: 2.60.2
     optionalDependencies:
