@@ -14,7 +14,7 @@ specifiers:
   lint-staged: 12.1.5
   prettier: 2.5.1
   solid-app-router: 0.1.14
-  solid-js: 1.2.6
+  solid-js: 1.3.1
   solid-transition-group: 0.0.8
   sort-package-json: 1.53.1
   typescript: 4.5.4
@@ -24,9 +24,9 @@ specifiers:
   vite-tsconfig-paths: 3.3.17
 
 dependencies:
-  solid-app-router: 0.1.14_solid-js@1.2.6
-  solid-js: 1.2.6
-  solid-transition-group: 0.0.8_solid-js@1.2.6
+  solid-app-router: 0.1.14_solid-js@1.3.1
+  solid-js: 1.3.1
+  solid-transition-group: 0.0.8_solid-js@1.3.1
 
 devDependencies:
   '@commitlint/cli': 16.0.1
@@ -3141,18 +3141,18 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /solid-app-router/0.1.14_solid-js@1.2.6:
+  /solid-app-router/0.1.14_solid-js@1.3.1:
     resolution: {integrity: sha512-fnX+jCB5sDMbjq3od9qGtQNdlvHP2c6DG5STvMHVXyNuSEN+MdO7WJtZ58OpVpq6zWS4FYeYAh7NMEa7C2CcOA==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.2.6
+      solid-js: 1.3.1
     dev: false
 
-  /solid-js/1.2.6:
-    resolution: {integrity: sha512-NvPHJ5Vj5f+ZJWIioickrC55seovSkDtm5NzSpnoUk3z4tATv0STpy5iuGNEn51ZORUcwpZzrMAtOCGziXU1XA==}
+  /solid-js/1.3.1:
+    resolution: {integrity: sha512-umBPwS/d7K5+NxojUok/t8xgXdMbIOkFLs/sk4DliFTsl3nbguHgkcAt3KWE6XhA8Xr1xKx5P+g75B8+VP0CzQ==}
 
-  /solid-refresh/0.3.2_solid-js@1.2.6:
+  /solid-refresh/0.3.2_solid-js@1.3.1:
     resolution: {integrity: sha512-7lg3EjenGoxQvGoZnTD3d480wBxbpAiAsyk0dhoGq6hjcaAQ3vnsBGxvXV0LBTzeQcGmIRz1GeSsw/64YyNr+g==}
     peerDependencies:
       solid-js: ^1.0.0
@@ -3160,15 +3160,15 @@ packages:
       '@babel/generator': 7.16.7
       '@babel/helper-module-imports': 7.16.0
       '@babel/types': 7.16.7
-      solid-js: 1.2.6
+      solid-js: 1.3.1
     dev: true
 
-  /solid-transition-group/0.0.8_solid-js@1.2.6:
+  /solid-transition-group/0.0.8_solid-js@1.3.1:
     resolution: {integrity: sha512-5cS/Ircfs/Y0J00oEToL+MWd9V07KgQlw+qRD8kpd6azb2Ri5SjXg/ocqT8U8Wgdx1VQPx45HyopQN+UumkVGQ==}
     peerDependencies:
       solid-js: ^1.0.0
     dependencies:
-      solid-js: 1.2.6
+      solid-js: 1.3.1
     dev: false
 
   /sort-object-keys/1.1.3:
@@ -3518,8 +3518,8 @@ packages:
       '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
       babel-preset-solid: 1.2.6_@babel+core@7.16.7
       merge-anything: 4.0.2
-      solid-js: 1.2.6
-      solid-refresh: 0.3.2_solid-js@1.2.6
+      solid-js: 1.3.1
+      solid-refresh: 0.3.2_solid-js@1.3.1
       vite: 2.7.10
     transitivePeerDependencies:
       - less
