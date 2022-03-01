@@ -48,6 +48,6 @@
     "vite": "2.7.10",
     "vite-plugin-mkcert": "1.6.0",
     "vite-plugin-solid": "2.2.5",
-    "vite-tsconfig-paths": "3.4.0"
+    "vite-tsconfig-paths": "3.4.1"
   }
 }
