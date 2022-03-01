@@ -19,7 +19,7 @@ specifiers:
   sort-package-json: 1.54.0
   typescript: 4.6.2
   vite: 2.7.10
-  vite-plugin-mkcert: 1.5.2
+  vite-plugin-mkcert: 1.6.0
   vite-plugin-solid: 2.2.5
   vite-tsconfig-paths: 3.4.0
 
@@ -44,7 +44,7 @@ devDependencies:
   sort-package-json: 1.54.0
   typescript: 4.6.2
   vite: 2.7.10
-  vite-plugin-mkcert: 1.5.2
+  vite-plugin-mkcert: 1.6.0
   vite-plugin-solid: 2.2.5
   vite-tsconfig-paths: 3.4.0_vite@2.7.10
 
@@ -3753,13 +3753,13 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-mkcert/1.5.2:
-    resolution: {integrity: sha512-hyNxUUCWILC8dQAfBiJBrTNGAYjM14I2OlFQHOmh8GkFQC0J4MOh2MCvh55H7LlwC1nd/sWrI1DNULY6JTxHFg==}
+  /vite-plugin-mkcert/1.6.0:
+    resolution: {integrity: sha512-zVa/sKM67htmIwey0fbUf93ufpsr54iqHWg5w0pFk2/pW4qCOPoG7XhEfsAawv4SSB/oWaWdFUgoZApXVCAG4Q==}
     dependencies:
       '@octokit/rest': 18.12.0
       axios: 0.21.4_debug@4.3.3
-      chalk: 4.1.2
       debug: 4.3.3
+      picocolors: 1.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
