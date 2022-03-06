@@ -20,7 +20,7 @@ specifiers:
   typescript: 4.6.2
   vite: 2.8.5
   vite-plugin-mkcert: 1.6.0
-  vite-plugin-solid: 2.2.5
+  vite-plugin-solid: 2.2.6
   vite-tsconfig-paths: 3.4.1
 
 dependencies:
@@ -45,7 +45,7 @@ devDependencies:
   typescript: 4.6.2
   vite: 2.8.5
   vite-plugin-mkcert: 1.6.0
-  vite-plugin-solid: 2.2.5
+  vite-plugin-solid: 2.2.6
   vite-tsconfig-paths: 3.4.1_vite@2.8.5
 
 packages:
@@ -3580,8 +3580,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid/2.2.5:
-    resolution: {integrity: sha512-SJkXdVnrPnhAWzs8Vi/+9oViUfx6TiQo8y1FFlDiyUdZR4nxTyGmRzz4xx+CC75GJL3hgDWac/zYA6sYq8SQAg==}
+  /vite-plugin-solid/2.2.6:
+    resolution: {integrity: sha512-J1RnmqkZZJSNYDW7vZj0giKKHLWGr9tS/gxR70WDSTYfhyXrgukbZdIfSEFbtrsg8ZiQ2t2zXcvkWoeefenqKw==}
     dependencies:
       '@babel/core': 7.17.5
       '@babel/preset-typescript': 7.16.7_@babel+core@7.17.5
