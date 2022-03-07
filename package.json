@@ -2,13 +2,12 @@
   "name": "template-vite-solid-ts",
   "version": "0.0.0-development",
   "description": "",
-  "license": "MIT",
-  "author": "0x219",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preinstall": "npx -y only-allow pnpm",
-    "preview": "vite preview"
+    "preinstall": "is-ci || npx only-allow pnpm",
+    "prepare": "is-ci || husky install",
+    "serve": "vite preview"
   },
   "commitlint": {
     "extends": [
@@ -16,13 +15,9 @@
     ]
   },
   "lint-staged": {
-    "*.{css,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "eslint",
-      "prettier --write"
-    ],
+    "*.{ts,tsx}": "eslint",
+    "*.{js,ts,tsx,md,html,css,json}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
     "package.json": "pnpm sort-package-json"
   },
   "dependencies": {
@@ -35,15 +30,18 @@
     "@commitlint/config-conventional": "16.2.1",
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "@typescript-eslint/parser": "5.13.0",
+    "autoprefixer": "10.4.2",
     "eslint": "8.10.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
+    "is-ci": "3.0.1",
     "lint-staged": "12.3.5",
+    "postcss": "8.4.8",
     "prettier": "2.5.1",
     "sort-package-json": "1.54.0",
+    "tailwindcss": "3.0.23",
     "typescript": "4.6.2",
     "vite": "2.8.6",
     "vite-plugin-mkcert": "1.6.0",
