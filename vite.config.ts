@@ -8,11 +8,7 @@ export default defineConfig({
     https: true,
     port: 4300,
   },
-  plugins: [
-    solid(),
-    paths(),
-    mkcert(),
-  ],
+  plugins: [solid(), paths(), mkcert()],
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
