@@ -10,7 +10,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-jsx-a11y: 6.5.1
   eslint-plugin-prettier: 4.0.0
-  husky: 7.0.4
+  husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 12.4.1
   postcss: 8.4.12
@@ -41,7 +41,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.15.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.15.0
   eslint-plugin-prettier: 4.0.0_iqftbjqlxzn3ny5nablrkczhqi
-  husky: 7.0.4
+  husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 12.4.1
   postcss: 8.4.12
@@ -285,6 +285,8 @@ packages:
     resolution: {integrity: sha512-7yJPvPV+ESz2IUTPbOL+YkIGyCqOyNIzdguKQuJGnH7bg1WTIifuM21YqokFt/THWh1AkCRn9IgoykTRCBVpzA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.17.0
     dev: true
 
   /@babel/plugin-syntax-jsx/7.16.7_@babel+core@7.17.5:
@@ -2279,9 +2281,9 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
