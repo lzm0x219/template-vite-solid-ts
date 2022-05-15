@@ -16,7 +16,7 @@
 ## Getting Started
 
 ```bash
-npx degit UmaruLab/template-vite-solid-ts myapp
+npx degit 0x219/template-vite-solid-ts myapp
 
 cd myapp
 ```
