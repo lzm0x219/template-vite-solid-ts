@@ -21,7 +21,7 @@ specifiers:
   sort-package-json: 1.57.0
   tailwindcss: 3.0.24
   typescript: 4.7.2
-  vite: 2.9.9
+  vite: 2.9.10
   vite-plugin-mkcert: 1.6.4
   vite-plugin-solid: 2.2.6
   vite-tsconfig-paths: 3.5.0
@@ -49,10 +49,10 @@ devDependencies:
   sort-package-json: 1.57.0
   tailwindcss: 3.0.24
   typescript: 4.7.2
-  vite: 2.9.9
+  vite: 2.9.10
   vite-plugin-mkcert: 1.6.4
   vite-plugin-solid: 2.2.6
-  vite-tsconfig-paths: 3.5.0_vite@2.9.9
+  vite-tsconfig-paths: 3.5.0_vite@2.9.10
 
 packages:
 
@@ -3764,7 +3764,7 @@ packages:
       axios: 0.21.4_debug@4.3.4
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 2.9.9
+      vite: 2.9.10
     transitivePeerDependencies:
       - encoding
       - less
@@ -3782,7 +3782,7 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.3
       solid-refresh: 0.4.0_solid-js@1.4.3
-      vite: 2.9.9
+      vite: 2.9.10
     transitivePeerDependencies:
       - less
       - sass
@@ -3790,7 +3790,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.5.0_vite@2.9.9:
+  /vite-tsconfig-paths/3.5.0_vite@2.9.10:
     resolution: {integrity: sha512-NKIubr7gXgh/3uniQaOytSg+aKWPrjquP6anAy+zCWEn6h9fB8z2/qdlfQrTgZWaXJ2pHVlllrSdRZltHn9P4g==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -3799,13 +3799,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.2
       tsconfig-paths: 4.0.0
-      vite: 2.9.9
+      vite: 2.9.10
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.9.9:
-    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
+  /vite/2.9.10:
+    resolution: {integrity: sha512-TwZRuSMYjpTurLqXspct+HZE7ONiW9d+wSWgvADGxhDPPyoIcNywY+RX4ng+QpK30DCa1l/oZgi2PLZDibhzbQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
