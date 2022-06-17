@@ -12,7 +12,7 @@ specifiers:
   eslint-plugin-prettier: 4.0.0
   husky: 8.0.1
   is-ci: 3.0.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   postcss: 8.4.14
   prettier: 2.6.2
   solid-app-router: 0.3.3
@@ -43,7 +43,7 @@ devDependencies:
   eslint-plugin-prettier: 4.0.0_ucegkljdju7q4zmvwxzqoprf3y
   husky: 8.0.1
   is-ci: 3.0.1
-  lint-staged: 13.0.1
+  lint-staged: 13.0.2
   postcss: 8.4.14
   prettier: 2.6.2
   sort-package-json: 1.57.0
@@ -2633,8 +2633,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/13.0.1:
-    resolution: {integrity: sha512-Ykaf4QTi0a02BF7cnq7JIPGOJxH4TkNMWhSlJdH9wOekd0X+gog47Jfh/0L31DqZe5AiydLGC7LkPqpaNm+Kvg==}
+  /lint-staged/13.0.2:
+    resolution: {integrity: sha512-qQLfLTh9z34eMzfEHENC+QBskZfxjomrf+snF3xJ4BzilORbD989NLqQ00ughsF/A+PT41e87+WsMFabf9++pQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3608,7 +3608,7 @@ packages:
     dev: true
 
   /through/2.3.8:
-    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
+    resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
 
   /through2/4.0.2:
