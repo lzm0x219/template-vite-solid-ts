@@ -30,7 +30,7 @@
     "@commitlint/config-conventional": "17.1.0",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
-    "autoprefixer": "10.4.8",
+    "autoprefixer": "10.4.11",
     "eslint": "8.23.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
