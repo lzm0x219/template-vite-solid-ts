@@ -24,7 +24,7 @@ specifiers:
   vite: 3.1.0
   vite-plugin-mkcert: 1.9.0
   vite-plugin-solid: 2.3.2
-  vite-tsconfig-paths: 3.5.0
+  vite-tsconfig-paths: 3.5.1
 
 dependencies:
   solid-app-router: 0.4.2_solid-js@1.5.5
@@ -52,7 +52,7 @@ devDependencies:
   vite: 3.1.0
   vite-plugin-mkcert: 1.9.0
   vite-plugin-solid: 2.3.2_solid-js@1.5.5+vite@3.1.0
-  vite-tsconfig-paths: 3.5.0_vite@3.1.0
+  vite-tsconfig-paths: 3.5.1_vite@3.1.0
 
 packages:
 
@@ -3604,7 +3604,7 @@ packages:
     dev: true
 
   /strip-bom/3.0.0:
-    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
     dev: true
 
@@ -3906,8 +3906,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.5.0_vite@3.1.0:
-    resolution: {integrity: sha512-NKIubr7gXgh/3uniQaOytSg+aKWPrjquP6anAy+zCWEn6h9fB8z2/qdlfQrTgZWaXJ2pHVlllrSdRZltHn9P4g==}
+  /vite-tsconfig-paths/3.5.1_vite@3.1.0:
+    resolution: {integrity: sha512-t7cPvDMDxOCUxxNLqngXiX+L6jPYBr+eMgkeVadknxBb89d2s1aejz+wFEep010VfXjGVAUWGEFPe1fkRYTFvg==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
