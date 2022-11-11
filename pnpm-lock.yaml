@@ -5,7 +5,7 @@ specifiers:
   '@commitlint/config-conventional': 17.1.0
   '@typescript-eslint/eslint-plugin': 5.39.0
   '@typescript-eslint/parser': 5.39.0
-  autoprefixer: 10.4.12
+  autoprefixer: 10.4.13
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-jsx-a11y: 6.6.1
@@ -36,7 +36,7 @@ devDependencies:
   '@commitlint/config-conventional': 17.1.0
   '@typescript-eslint/eslint-plugin': 5.39.0_7f3aqhlvvz4evw3j7e7r2zx4rq
   '@typescript-eslint/parser': 5.39.0_rmayb2veg2btbq6mbmnyivgasy
-  autoprefixer: 10.4.12_postcss@8.4.17
+  autoprefixer: 10.4.13_postcss@8.4.17
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0_eslint@8.27.0
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.27.0
@@ -1130,15 +1130,15 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.12_postcss@8.4.17:
-    resolution: {integrity: sha512-WrCGV9/b97Pa+jtwf5UGaRjgQIg7OK3D06GnoYoZNcG1Xb8Gt3EfuKjlhh9i/VtT16g6PYjZ69jdJ2g8FxSC4Q==}
+  /autoprefixer/10.4.13_postcss@8.4.17:
+    resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.4
-      caniuse-lite: 1.0.30001414
+      caniuse-lite: 1.0.30001431
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1216,7 +1216,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001414
+      caniuse-lite: 1.0.30001431
       electron-to-chromium: 1.4.270
       node-releases: 2.0.6
       update-browserslist-db: 1.0.9_browserslist@4.21.4
@@ -1253,8 +1253,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001414:
-    resolution: {integrity: sha512-t55jfSaWjCdocnFdKQoO+d2ct9C59UZg4dY3OnUlSZ447r8pUtIKdp0hpAzrGFultmTC+Us+KpKi4GZl/LXlFg==}
+  /caniuse-lite/1.0.30001431:
+    resolution: {integrity: sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==}
     dev: true
 
   /chalk/2.4.2:
