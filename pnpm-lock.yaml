@@ -18,7 +18,7 @@ specifiers:
   solid-app-router: 0.4.2
   solid-js: 1.5.7
   solid-transition-group: 0.0.12
-  sort-package-json: 2.0.0
+  sort-package-json: 2.1.0
   tailwindcss: 3.2.4
   typescript: 4.8.4
   vite: 3.2.4
@@ -46,7 +46,7 @@ devDependencies:
   lint-staged: 13.0.3
   postcss: 8.4.19
   prettier: 2.7.1
-  sort-package-json: 2.0.0
+  sort-package-json: 2.1.0
   tailwindcss: 3.2.4_postcss@8.4.19
   typescript: 4.8.4
   vite: 3.2.4
@@ -2306,7 +2306,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 4.0.0
@@ -3517,8 +3517,8 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json/2.0.0:
-    resolution: {integrity: sha512-71AZsHsf33oC8Pa0/4/6eo1IufgLfibqxTXTA3bfeicx8gba7kDc5Cofy2YHWrH/cV8nfXSQeMNpGliR07oEHA==}
+  /sort-package-json/2.1.0:
+    resolution: {integrity: sha512-M5ctkdnn7znAkoVQJ0Y+PHDUieyXMhydPyW7r2J9ZM0Iwc3BTyEf5cmoSRfHNo07FEvzWwnphcP7GlrAX164UQ==}
     hasBin: true
     dependencies:
       detect-indent: 7.0.1
