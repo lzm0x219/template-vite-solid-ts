@@ -11,7 +11,7 @@ specifiers:
   prettier-plugin-tailwindcss: 0.2.1
   rome: 11.0.0
   solid-app-router: 0.4.2
-  solid-devtools: 0.24.0
+  solid-devtools: 0.24.1
   solid-js: 1.6.5
   solid-transition-group: 0.0.12
   sort-package-json: 2.1.0
@@ -23,7 +23,7 @@ specifiers:
 
 dependencies:
   solid-app-router: 0.4.2_solid-js@1.6.5
-  solid-devtools: 0.24.0_solid-js@1.6.5+vite@4.0.2
+  solid-devtools: 0.24.1_solid-js@1.6.5+vite@4.0.2
   solid-js: 1.6.5
   solid-transition-group: 0.0.12_solid-js@1.6.5
 
@@ -738,12 +738,12 @@ packages:
     dev: true
     optional: true
 
-  /@solid-devtools/debugger/0.16.0_solid-js@1.6.5+vite@4.0.2:
-    resolution: {integrity: sha512-cnemYlRpVhhhgjHxQOPNyadaUeomDR4CCDQ7mq91BrUyE0GTNgwcRnToXx6f4a4EZez5LB2uj4reQCRWR3iVDQ==}
+  /@solid-devtools/debugger/0.17.0_solid-js@1.6.5+vite@4.0.2:
+    resolution: {integrity: sha512-wXaHuZV98lXdbNuvRNuPEyYzISUYSTFdXyLFIjjAk0UirF0P5jy++RaPjviYq1XHUi/X73HFHaTIeyjKXjpUGw==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@solid-devtools/shared': 0.10.2_solid-js@1.6.5
+      '@solid-devtools/shared': 0.10.3_solid-js@1.6.5
       '@solid-devtools/transform': 0.9.0_solid-js@1.6.5+vite@4.0.2
       '@solid-primitives/bounds': 0.0.105_solid-js@1.6.5
       '@solid-primitives/cursor': 0.0.103_solid-js@1.6.5
@@ -760,8 +760,8 @@ packages:
       - vite
     dev: false
 
-  /@solid-devtools/shared/0.10.2_solid-js@1.6.5:
-    resolution: {integrity: sha512-cZDlwJ2vnhkA15cqRH3eJU2ku+khDtD89vpGAEByrfNuxAgXC+piHc7rXvMwoOipJxZWzKPQLDHsfqzjwzqLHg==}
+  /@solid-devtools/shared/0.10.3_solid-js@1.6.5:
+    resolution: {integrity: sha512-xJAZ8lOHsm+915boN7RvLAgjYhiQ3V+TrCrUKw05PxkA2Q/y6hQMsqo2/1SDPjRGUH0nailex5ynJv780bS4aQ==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
@@ -785,7 +785,7 @@ packages:
       '@babel/core': 7.20.5
       '@babel/plugin-syntax-typescript': 7.18.6_@babel+core@7.20.5
       '@babel/types': 7.20.5
-      '@solid-devtools/shared': 0.10.2_solid-js@1.6.5
+      '@solid-devtools/shared': 0.10.3_solid-js@1.6.5
       solid-js: 1.6.5
       vite: 4.0.2
     transitivePeerDependencies:
@@ -2066,13 +2066,13 @@ packages:
       solid-js: 1.6.5
     dev: false
 
-  /solid-devtools/0.24.0_solid-js@1.6.5+vite@4.0.2:
-    resolution: {integrity: sha512-xwx43Rh9waUlPIufWBUCwEwUemlO5bA44m1kNEoXsow6+ysQPhJM+kPoBkJvFV7ljXOhd8SaY48QFN87cfCQfg==}
+  /solid-devtools/0.24.1_solid-js@1.6.5+vite@4.0.2:
+    resolution: {integrity: sha512-yphVQr8VceN/oSCtyzG6olCCd3E6lJZ4dNNbUSPu4TjvwhdhWeXa0T2d3Fk7PYtXtldUX/rwOfV4yGz882aLIQ==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@solid-devtools/debugger': 0.16.0_solid-js@1.6.5+vite@4.0.2
-      '@solid-devtools/shared': 0.10.2_solid-js@1.6.5
+      '@solid-devtools/debugger': 0.17.0_solid-js@1.6.5+vite@4.0.2
+      '@solid-devtools/shared': 0.10.3_solid-js@1.6.5
       '@solid-devtools/transform': 0.9.0_solid-js@1.6.5+vite@4.0.2
       '@solid-primitives/utils': 4.0.0_solid-js@1.6.5
       solid-js: 1.6.5
