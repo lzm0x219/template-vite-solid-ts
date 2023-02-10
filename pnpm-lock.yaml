@@ -13,7 +13,7 @@ specifiers:
   solid-app-router: 0.4.2
   solid-devtools: 0.24.7
   solid-js: 1.6.9
-  solid-transition-group: 0.0.12
+  solid-transition-group: 0.0.13
   sort-package-json: 2.3.0
   tailwindcss: 3.2.4
   typescript: 4.9.5
@@ -25,7 +25,7 @@ dependencies:
   solid-app-router: 0.4.2_solid-js@1.6.9
   solid-devtools: 0.24.7_solid-js@1.6.9+vite@4.0.4
   solid-js: 1.6.9
-  solid-transition-group: 0.0.12_solid-js@1.6.9
+  solid-transition-group: 0.0.13_solid-js@1.6.9
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
@@ -4086,10 +4086,10 @@ packages:
     dev: false
     optional: true
 
-  /solid-transition-group/0.0.12_solid-js@1.6.9:
-    resolution: {integrity: sha512-Eu4MfNZSSxM67C+4EXaoDiWr4BFbDLg3j30JQJgQEIH9UDOfgNPfZlsFDhT/PxwJqhe6sn85W+dbmYJzBmjpAA==}
+  /solid-transition-group/0.0.13_solid-js@1.6.9:
+    resolution: {integrity: sha512-VA1V0ip4dsNOQJ/dCluCiAPBUuHspYFm4WYG91jpNmcP4rC4DY1S1EGds44JjiUAP7qEoEZdMhPaiS6lqTF7AA==}
     peerDependencies:
-      solid-js: ^1.0.0
+      solid-js: ^1.5.0
     dependencies:
       solid-js: 1.6.9
     dev: false
