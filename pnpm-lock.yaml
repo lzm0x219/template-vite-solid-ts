@@ -18,7 +18,7 @@ specifiers:
   tailwindcss: 3.2.7
   typescript: 4.9.5
   vite: 4.1.4
-  vite-plugin-mkcert: 1.13.0
+  vite-plugin-mkcert: 1.13.3
   vite-plugin-solid: 2.5.0
 
 dependencies:
@@ -41,7 +41,7 @@ devDependencies:
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
   vite: 4.1.4
-  vite-plugin-mkcert: 1.13.0_vite@4.1.4
+  vite-plugin-mkcert: 1.13.3_vite@4.1.4
   vite-plugin-solid: 2.5.0_solid-js@1.6.10+vite@4.1.4
 
 packages:
@@ -4501,8 +4501,8 @@ packages:
     dev: false
     optional: true
 
-  /vite-plugin-mkcert/1.13.0_vite@4.1.4:
-    resolution: {integrity: sha512-oQ69Eu/QH47UpOF0Hm35STNoxb4W6PGQPNiOR+hsHivCnHt5RU1CaXJuA/0zq/82YiR32TXSTTlohv0VVX8eVA==}
+  /vite-plugin-mkcert/1.13.3_vite@4.1.4:
+    resolution: {integrity: sha512-cuAbOb6bHyTMhha9YimL6ZB/WoCcFy8d3uaf5n5Ovgybix1yvEu3pxARy2HjC5LJIS1qq6fFXG0+oj6/XMUapA==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
       vite: '>=3'
