@@ -6,7 +6,7 @@ specifiers:
   is-ci: 3.0.1
   lint-staged: 13.1.2
   postcss: 8.4.21
-  prettier: 2.8.6
+  prettier: 2.8.7
   prettier-plugin-packagejson: 2.4.3
   prettier-plugin-tailwindcss: 0.2.3
   rome: 11.0.0
@@ -33,9 +33,9 @@ devDependencies:
   is-ci: 3.0.1
   lint-staged: 13.1.2
   postcss: 8.4.21
-  prettier: 2.8.6
-  prettier-plugin-packagejson: 2.4.3_prettier@2.8.6
-  prettier-plugin-tailwindcss: 0.2.3_prettier@2.8.6
+  prettier: 2.8.7
+  prettier-plugin-packagejson: 2.4.3_prettier@2.8.7
+  prettier-plugin-tailwindcss: 0.2.3_prettier@2.8.7
   rome: 11.0.0
   sort-package-json: 2.4.1
   tailwindcss: 3.2.7_postcss@8.4.21
@@ -3760,7 +3760,7 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
-  /prettier-plugin-packagejson/2.4.3_prettier@2.8.6:
+  /prettier-plugin-packagejson/2.4.3_prettier@2.8.7:
     resolution: {integrity: sha512-kPeeviJiwy0BgOSk7No8NmzzXfW4R9FYWni6ziA5zc1kGVVrKnBzMZdu2TUhI+I7h8/5Htt3vARYOk7KKJTTNQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -3768,12 +3768,12 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 2.8.6
+      prettier: 2.8.7
       sort-package-json: 2.4.1
       synckit: 0.8.5
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.3_prettier@2.8.6:
+  /prettier-plugin-tailwindcss/0.2.3_prettier@2.8.7:
     resolution: {integrity: sha512-s2N5Dh7Ao5KTV1mao5ZBnn8EKtUcDPJEkGViZIjI0Ij9TTI5zgTz4IHOxW33jOdjHKa8CSjM88scelUiC5TNRQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3825,11 +3825,11 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 2.8.6
+      prettier: 2.8.7
     dev: true
 
-  /prettier/2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
