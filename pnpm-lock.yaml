@@ -8,7 +8,7 @@ specifiers:
   postcss: 8.4.21
   prettier: 2.8.7
   prettier-plugin-packagejson: 2.4.3
-  prettier-plugin-tailwindcss: 0.2.3
+  prettier-plugin-tailwindcss: 0.2.5
   rome: 11.0.0
   solid-app-router: 0.4.2
   solid-devtools: 0.26.0
@@ -35,7 +35,7 @@ devDependencies:
   postcss: 8.4.21
   prettier: 2.8.7
   prettier-plugin-packagejson: 2.4.3_prettier@2.8.7
-  prettier-plugin-tailwindcss: 0.2.3_prettier@2.8.7
+  prettier-plugin-tailwindcss: 0.2.5_prettier@2.8.7
   rome: 11.0.0
   sort-package-json: 2.4.1
   tailwindcss: 3.2.7_postcss@8.4.21
@@ -3773,8 +3773,8 @@ packages:
       synckit: 0.8.5
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.3_prettier@2.8.7:
-    resolution: {integrity: sha512-s2N5Dh7Ao5KTV1mao5ZBnn8EKtUcDPJEkGViZIjI0Ij9TTI5zgTz4IHOxW33jOdjHKa8CSjM88scelUiC5TNRQ==}
+  /prettier-plugin-tailwindcss/0.2.5_prettier@2.8.7:
+    resolution: {integrity: sha512-vZ/iKieyCx0WTxHbkf5E1rBlv/ybFk8WTT4hL5W2jlVxum2Zbe0jMUpuQdDrpa4z2vnPiJ5KIWCqL/kd16fKYg==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
