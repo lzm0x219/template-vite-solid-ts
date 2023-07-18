@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.4.2
     version: 0.4.2(solid-js@1.7.8)
   solid-devtools:
-    specifier: 0.27.3
-    version: 0.27.3(solid-js@1.7.8)(vite@4.3.4)
+    specifier: 0.27.4
+    version: 0.27.4(solid-js@1.7.8)(vite@4.3.4)
   solid-js:
     specifier: 1.7.8
     version: 1.7.8
@@ -803,12 +803,12 @@ packages:
     dev: true
     optional: true
 
-  /@solid-devtools/debugger@0.22.1(solid-js@1.7.8):
-    resolution: {integrity: sha512-y/8Y7rKZPqP5cN4uHVySTHtX5KSfYcKnBVzmVmzaiZhqzQwqu6goc7EgSq3hM1MJYkcLWcfBodMTdJpa4LqhHQ==}
+  /@solid-devtools/debugger@0.22.2(solid-js@1.7.8):
+    resolution: {integrity: sha512-nfS2/yWgTcmqYZbvO6eoVdPnH6Lyu8vEsEXdctIbDtcAsZo96L37dyJvLI8WIzW3x2R9KPUfKd9Iv93MIs98Pw==}
     peerDependencies:
       solid-js: ^1.7.0
     dependencies:
-      '@solid-devtools/shared': 0.12.0(solid-js@1.7.8)
+      '@solid-devtools/shared': 0.12.1(solid-js@1.7.8)
       '@solid-primitives/bounds': 0.0.111(solid-js@1.7.8)
       '@solid-primitives/cursor': 0.0.109(solid-js@1.7.8)
       '@solid-primitives/event-bus': 1.0.7(solid-js@1.7.8)
@@ -823,8 +823,8 @@ packages:
       type-fest: 3.12.0
     dev: false
 
-  /@solid-devtools/shared@0.12.0(solid-js@1.7.8):
-    resolution: {integrity: sha512-BQk2rLyKfNxfp+Y+3o/ZbPqO0TnM4pRJZwxoUthxHL6wM7AN6es4asQpoMnLJjvV/mjdFMzNVrqTnuDAoJuEmA==}
+  /@solid-devtools/shared@0.12.1(solid-js@1.7.8):
+    resolution: {integrity: sha512-nhqR9O12HbxZh3UKGjuVbxipVM0O9qpC13dZa/7QISXT1mw6x5/ATQycI3VCNDTTwW6vARgwGue+De5tfs94ug==}
     peerDependencies:
       solid-js: ^1.7.0
     dependencies:
@@ -2328,8 +2328,8 @@ packages:
       solid-js: 1.7.8
     dev: false
 
-  /solid-devtools@0.27.3(solid-js@1.7.8)(vite@4.3.4):
-    resolution: {integrity: sha512-cyIocZr6QuDCSWAqlfUdXg6vV986e5a/N8SwEPecMWlWS+PSTvYqMLzL8onFSPY5ZBeRRYR5PVN6nB4o5BIN9Q==}
+  /solid-devtools@0.27.4(solid-js@1.7.8)(vite@4.3.4):
+    resolution: {integrity: sha512-XbQxds1F8eMVi5OFAmrLv1BTSRVjF0qzJZ1L4Ac8WM+1/75v/g+CGbBmROgTm9wVJsp73B2lRBbGBjQlZGMkEA==}
     peerDependencies:
       solid-js: ^1.7.0
       solid-start: ^0.2.20
@@ -2343,8 +2343,8 @@ packages:
       '@babel/core': 7.22.6
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.6)
       '@babel/types': 7.22.5
-      '@solid-devtools/debugger': 0.22.1(solid-js@1.7.8)
-      '@solid-devtools/shared': 0.12.0(solid-js@1.7.8)
+      '@solid-devtools/debugger': 0.22.2(solid-js@1.7.8)
+      '@solid-devtools/shared': 0.12.1(solid-js@1.7.8)
       solid-js: 1.7.8
       vite: 4.3.4
     transitivePeerDependencies:
