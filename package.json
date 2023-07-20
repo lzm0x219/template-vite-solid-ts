@@ -31,7 +31,7 @@
     "lint-staged": "13.2.3",
     "postcss": "8.4.26",
     "prettier": "3.0.0",
-    "prettier-plugin-packagejson": "2.4.3",
+    "prettier-plugin-packagejson": "2.4.5",
     "prettier-plugin-tailwindcss": "0.4.1",
     "rome": "12.0.0",
     "sort-package-json": "2.4.1",
