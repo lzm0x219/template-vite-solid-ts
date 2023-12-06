@@ -47,8 +47,8 @@ devDependencies:
     specifier: 0.5.1
     version: 0.5.1(prettier@3.0.1)
   sort-package-json:
-    specifier: 2.5.1
-    version: 2.5.1
+    specifier: 2.6.0
+    version: 2.6.0
   tailwindcss:
     specifier: 3.3.6
     version: 3.3.6
@@ -2539,19 +2539,6 @@ packages:
 
   /sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
-    dev: true
-
-  /sort-package-json@2.5.1:
-    resolution: {integrity: sha512-vx/KoZxm8YNMUqdlw7SGTfqR5pqZ/sUfgOuRtDILiOy/3AvzhAibyUe2cY3OpLs3oRSow9up4yLVtQaM24rbDQ==}
-    hasBin: true
-    dependencies:
-      detect-indent: 7.0.1
-      detect-newline: 4.0.0
-      get-stdin: 9.0.0
-      git-hooks-list: 3.1.0
-      globby: 13.2.1
-      is-plain-obj: 4.1.0
-      sort-object-keys: 1.1.3
     dev: true
 
   /sort-package-json@2.6.0:
