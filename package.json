@@ -39,6 +39,6 @@
     "typescript": "5.4.2",
     "vite": "5.0.10",
     "vite-plugin-mkcert": "1.17.4",
-    "vite-plugin-solid": "2.8.0"
+    "vite-plugin-solid": "2.10.1"
   }
 }
