@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.4.2
     version: 0.4.2(solid-js@1.8.16)
   solid-devtools:
-    specifier: 0.29.3
-    version: 0.29.3(solid-js@1.8.16)(vite@5.2.7)
+    specifier: 0.30.0
+    version: 0.30.0(solid-js@1.8.16)(vite@5.2.7)
   solid-js:
     specifier: 1.8.16
     version: 1.8.16
@@ -271,15 +271,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-
-  /@babel/types@7.23.5:
-    resolution: {integrity: sha512-ON5kSOJwVO6xXVRTvOI0eOnWe7VdUcIpsovGo9U/Br4Ie4UVFQTboO2cYnDhAGU6Fp+UxSiT+pMft0SMHfuq6w==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.23.4
-      '@babel/helper-validator-identifier': 7.22.20
-      to-fast-properties: 2.0.0
-    dev: false
 
   /@babel/types@7.24.0:
     resolution: {integrity: sha512-+j7a5c253RfKh8iABBhywc8NSfP5LURe7Uh4qpsh6jc+aLJguvmIUBdjSdEMQv2bENrCR5MfRdjGo7vzS/ob7w==}
@@ -813,13 +804,13 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@solid-devtools/debugger@0.23.3(solid-js@1.8.16):
-    resolution: {integrity: sha512-VrgswTjb2FyHxQJp5y5u7OaJ2k1R14LYlAOX/1rDZrGHWKdGYCaWHGzxI7C8AExtMP+LS+WOxy0uXMPQpoAD2g==}
+  /@solid-devtools/debugger@0.23.4(solid-js@1.8.16):
+    resolution: {integrity: sha512-EfTB1Eo313wztQYGJ4Ec/wE70Ay2d603VCXfT3RlyqO5QfLrQGRHX5NXC07hJpQTJJJ3tbNgzO7+ZKo76MM5uA==}
     peerDependencies:
       solid-js: ^1.8.0
     dependencies:
       '@nothing-but/utils': 0.12.1
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.16)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.16)
       '@solid-primitives/bounds': 0.0.118(solid-js@1.8.16)
       '@solid-primitives/cursor': 0.0.112(solid-js@1.8.16)
       '@solid-primitives/event-bus': 1.0.8(solid-js@1.8.16)
@@ -833,8 +824,8 @@ packages:
       solid-js: 1.8.16
     dev: false
 
-  /@solid-devtools/shared@0.13.1(solid-js@1.8.16):
-    resolution: {integrity: sha512-qaAcZF47FFr4alVQSy5ooLy7mMt4MMDxSHw52heY1oCut8yfXDrnLcYDONabfoin2WYIwsQpjYhryHgjtB0uDg==}
+  /@solid-devtools/shared@0.13.2(solid-js@1.8.16):
+    resolution: {integrity: sha512-Y4uaC4EfTVwBR537MZwfaY/eiWAh+hW4mbtnwNuUw/LFmitHSkQhNQTUlLQv/S0chtwrYWQBxvXos1dC7e8R9g==}
     peerDependencies:
       solid-js: ^1.8.0
     dependencies:
@@ -2153,8 +2144,8 @@ packages:
       solid-js: 1.8.16
     dev: false
 
-  /solid-devtools@0.29.3(solid-js@1.8.16)(vite@5.2.7):
-    resolution: {integrity: sha512-9j3VxVbEoC54ML22gAMytR8ZS1nk9xKatsWziKSkI4c/Bcyh4sxQBGESHuXSLs9xaxpyGVTmFl3hknoxEpKzlA==}
+  /solid-devtools@0.30.0(solid-js@1.8.16)(vite@5.2.7):
+    resolution: {integrity: sha512-icQr7jEIZ0rgJcIAJOaIIKOzq+BDx9G1Ok+mPJBaxI0RPkeea3xJ7CqrKNQT8oYB5DWXgdu1r8D2SA29+bxGSw==}
     peerDependencies:
       solid-js: ^1.8.0
       solid-start: ^0.3.0
@@ -2167,9 +2158,9 @@ packages:
     dependencies:
       '@babel/core': 7.23.5
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.5)
-      '@babel/types': 7.23.5
-      '@solid-devtools/debugger': 0.23.3(solid-js@1.8.16)
-      '@solid-devtools/shared': 0.13.1(solid-js@1.8.16)
+      '@babel/types': 7.24.0
+      '@solid-devtools/debugger': 0.23.4(solid-js@1.8.16)
+      '@solid-devtools/shared': 0.13.2(solid-js@1.8.16)
       solid-js: 1.8.16
       vite: 5.2.7
     transitivePeerDependencies:
