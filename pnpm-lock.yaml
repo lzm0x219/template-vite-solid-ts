@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.4.2
     version: 0.4.2(solid-js@1.8.16)
   solid-devtools:
-    specifier: 0.30.0
-    version: 0.30.0(solid-js@1.8.16)(vite@5.2.8)
+    specifier: 0.30.1
+    version: 0.30.1(solid-js@1.8.16)(vite@5.2.8)
   solid-js:
     specifier: 1.8.16
     version: 1.8.16
@@ -2144,8 +2144,8 @@ packages:
       solid-js: 1.8.16
     dev: false
 
-  /solid-devtools@0.30.0(solid-js@1.8.16)(vite@5.2.8):
-    resolution: {integrity: sha512-icQr7jEIZ0rgJcIAJOaIIKOzq+BDx9G1Ok+mPJBaxI0RPkeea3xJ7CqrKNQT8oYB5DWXgdu1r8D2SA29+bxGSw==}
+  /solid-devtools@0.30.1(solid-js@1.8.16)(vite@5.2.8):
+    resolution: {integrity: sha512-axpXL4JV1dnGhuei+nSGS8ewGeNkmIgFDsAlO90YyYY5t8wU1R0aYAQtL+I+5KICLKPBvfkzdcFa2br7AV4lAw==}
     peerDependencies:
       solid-js: ^1.8.0
       solid-start: ^0.3.0
