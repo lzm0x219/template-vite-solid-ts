@@ -13,7 +13,7 @@ importers:
         version: 0.4.2(solid-js@1.9.3)
       solid-devtools:
         specifier: 0.30.1
-        version: 0.30.1(solid-js@1.9.3)(vite@5.4.10)
+        version: 0.30.1(solid-js@1.9.3)(vite@5.4.11)
       solid-js:
         specifier: 1.9.3
         version: 1.9.3
@@ -58,14 +58,14 @@ importers:
         specifier: 5.6.3
         version: 5.6.3
       vite:
-        specifier: 5.4.10
-        version: 5.4.10
+        specifier: 5.4.11
+        version: 5.4.11
       vite-plugin-mkcert:
         specifier: 1.17.6
-        version: 1.17.6(vite@5.4.10)
+        version: 1.17.6(vite@5.4.11)
       vite-plugin-solid:
         specifier: 2.10.2
-        version: 2.10.2(solid-js@1.9.3)(vite@5.4.10)
+        version: 2.10.2(solid-js@1.9.3)(vite@5.4.11)
 
 packages:
 
@@ -1533,8 +1533,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@5.4.10:
-    resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
+  vite@5.4.11:
+    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2770,7 +2770,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.3
 
-  solid-devtools@0.30.1(solid-js@1.9.3)(vite@5.4.10):
+  solid-devtools@0.30.1(solid-js@1.9.3)(vite@5.4.11):
     dependencies:
       '@babel/core': 7.23.5
       '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.5)
@@ -2779,7 +2779,7 @@ snapshots:
       '@solid-devtools/shared': 0.13.2(solid-js@1.9.3)
       solid-js: 1.9.3
     optionalDependencies:
-      vite: 5.4.10
+      vite: 5.4.11
     transitivePeerDependencies:
       - supports-color
 
@@ -2917,17 +2917,17 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-mkcert@1.17.6(vite@5.4.10):
+  vite-plugin-mkcert@1.17.6(vite@5.4.11):
     dependencies:
       '@octokit/rest': 20.1.1
       axios: 1.7.4(debug@4.3.6)
       debug: 4.3.6
       picocolors: 1.0.1
-      vite: 5.4.10
+      vite: 5.4.11
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.10):
+  vite-plugin-solid@2.10.2(solid-js@1.9.3)(vite@5.4.11):
     dependencies:
       '@babel/core': 7.23.5
       '@types/babel__core': 7.20.5
@@ -2935,12 +2935,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.4.10
-      vitefu: 0.2.5(vite@5.4.10)
+      vite: 5.4.11
+      vitefu: 0.2.5(vite@5.4.11)
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.10:
+  vite@5.4.11:
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.48
@@ -2948,9 +2948,9 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.10):
+  vitefu@0.2.5(vite@5.4.11):
     optionalDependencies:
-      vite: 5.4.10
+      vite: 5.4.11
 
   which@2.0.2:
     dependencies:
