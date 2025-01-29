@@ -22,7 +22,7 @@
     "solid-app-router": "0.4.2",
     "solid-devtools": "0.33.0",
     "solid-js": "1.9.4",
-    "solid-transition-group": "0.2.3"
+    "solid-transition-group": "0.3.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
