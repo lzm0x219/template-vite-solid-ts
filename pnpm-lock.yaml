@@ -64,8 +64,8 @@ importers:
         specifier: 1.17.6
         version: 1.17.6(vite@6.2.0(jiti@1.21.6)(yaml@2.7.0))
       vite-plugin-solid:
-        specifier: 2.11.4
-        version: 2.11.4(solid-js@1.9.5)(vite@6.2.0(jiti@1.21.6)(yaml@2.7.0))
+        specifier: 2.11.5
+        version: 2.11.5(solid-js@1.9.5)(vite@6.2.0(jiti@1.21.6)(yaml@2.7.0))
 
 packages:
 
@@ -1301,8 +1301,8 @@ packages:
     peerDependencies:
       vite: '>=3'
 
-  vite-plugin-solid@2.11.4:
-    resolution: {integrity: sha512-qTy8FbA1oAwIaCl8+lmAJwMZ9fR7UcwQ68nVuX4VH6b1l059MrbKffgmJharcMJhqD/yJ+pD/EdSna6HEddEmw==}
+  vite-plugin-solid@2.11.5:
+    resolution: {integrity: sha512-XRXToYfVPDMZmlLzPoyYebGLCNa5pI/jv6LQxJBIadclaR1chyl8IDwdwJ7GY49whjDlom3cfDAI+00JQLgpzw==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
@@ -2481,7 +2481,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.11.4(solid-js@1.9.5)(vite@6.2.0(jiti@1.21.6)(yaml@2.7.0)):
+  vite-plugin-solid@2.11.5(solid-js@1.9.5)(vite@6.2.0(jiti@1.21.6)(yaml@2.7.0)):
     dependencies:
       '@babel/core': 7.23.5
       '@types/babel__core': 7.20.5
