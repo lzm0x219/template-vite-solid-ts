@@ -13,7 +13,7 @@ importers:
         version: 0.4.2(solid-js@1.9.7)
       solid-devtools:
         specifier: 0.34.0
-        version: 0.34.0(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1))
+        version: 0.34.0(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0))
       solid-js:
         specifier: 1.9.7
         version: 1.9.7
@@ -34,8 +34,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       lint-staged:
-        specifier: 16.0.0
-        version: 16.0.0
+        specifier: 16.1.0
+        version: 16.1.0
       postcss:
         specifier: 8.5.3
         version: 8.5.3
@@ -59,13 +59,13 @@ importers:
         version: 5.8.3
       vite:
         specifier: 6.3.5
-        version: 6.3.5(jiti@1.21.6)(yaml@2.7.1)
+        version: 6.3.5(jiti@1.21.6)(yaml@2.8.0)
       vite-plugin-mkcert:
         specifier: 1.17.8
-        version: 1.17.8(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1))
+        version: 1.17.8(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0))
       vite-plugin-solid:
         specifier: 2.11.6
-        version: 2.11.6(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1))
+        version: 2.11.6(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0))
 
 packages:
 
@@ -771,9 +771,9 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  commander@13.1.0:
-    resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
-    engines: {node: '>=18'}
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -783,6 +783,15 @@ packages:
 
   debug@4.4.0:
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  debug@4.4.1:
+    resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -945,9 +954,9 @@ packages:
     resolution: {integrity: sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==}
     engines: {node: '>=14'}
 
-  lint-staged@16.0.0:
-    resolution: {integrity: sha512-sUCprePs6/rbx4vKC60Hez6X10HPkpDJaGcy3D1NdwR7g1RcNkWL8q9mJMreOqmHBTs+1sNFp+wOiX9fr+hoOQ==}
-    engines: {node: '>=20.18'}
+  lint-staged@16.1.0:
+    resolution: {integrity: sha512-HkpQh69XHxgCjObjejBT3s2ILwNjFx8M3nw+tJ/ssBauDlIpkx2RpqWSi1fBgkXLSSXnbR3iEq1NkVtpvV+FLQ==}
+    engines: {node: '>=20.17'}
     hasBin: true
 
   listr2@8.3.3:
@@ -984,9 +993,9 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nano-spawn@1.0.1:
-    resolution: {integrity: sha512-BfcvzBlUTxSDWfT+oH7vd6CbUV+rThLLHCIym/QO6GGLBsyVXleZs00fto2i2jzC/wPiBYk5jyOmpXWg4YopiA==}
-    engines: {node: '>=20.18'}
+  nano-spawn@1.0.2:
+    resolution: {integrity: sha512-21t+ozMQDAL/UGgQVBbZ/xXvNO10++ZPuTmKRO8k9V3AClVRht49ahtDjfY8l1q6nSHOrE5ASfthzH3ol6R/hg==}
+    engines: {node: '>=20.17'}
 
   nanoid@3.3.8:
     resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
@@ -1309,9 +1318,9 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
-  yaml@2.7.1:
-    resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
-    engines: {node: '>= 14'}
+  yaml@2.8.0:
+    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+    engines: {node: '>= 14.6'}
     hasBin: true
 
 snapshots:
@@ -1990,13 +1999,17 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  commander@13.1.0: {}
+  commander@14.0.0: {}
 
   convert-source-map@2.0.0: {}
 
   csstype@3.1.2: {}
 
   debug@4.4.0:
+    dependencies:
+      ms: 2.1.3
+
+  debug@4.4.1:
     dependencies:
       ms: 2.1.3
 
@@ -2116,18 +2129,18 @@ snapshots:
 
   lilconfig@3.1.3: {}
 
-  lint-staged@16.0.0:
+  lint-staged@16.1.0:
     dependencies:
       chalk: 5.4.1
-      commander: 13.1.0
-      debug: 4.4.0
+      commander: 14.0.0
+      debug: 4.4.1
       lilconfig: 3.1.3
       listr2: 8.3.3
       micromatch: 4.0.8
-      nano-spawn: 1.0.1
+      nano-spawn: 1.0.2
       pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.7.1
+      yaml: 2.8.0
     transitivePeerDependencies:
       - supports-color
 
@@ -2171,7 +2184,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nano-spawn@1.0.1: {}
+  nano-spawn@1.0.2: {}
 
   nanoid@3.3.8: {}
 
@@ -2275,7 +2288,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.7
 
-  solid-devtools@0.34.0(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1)):
+  solid-devtools@0.34.0(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0)):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.10)
@@ -2284,7 +2297,7 @@ snapshots:
       '@solid-devtools/shared': 0.19.1(solid-js@1.9.7)
       solid-js: 1.9.7
     optionalDependencies:
-      vite: 6.3.5(jiti@1.21.6)(yaml@2.7.1)
+      vite: 6.3.5(jiti@1.21.6)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -2370,16 +2383,16 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-mkcert@1.17.8(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1)):
+  vite-plugin-mkcert@1.17.8(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0)):
     dependencies:
       axios: 1.8.3(debug@4.4.0)
       debug: 4.4.0
       picocolors: 1.1.1
-      vite: 6.3.5(jiti@1.21.6)(yaml@2.7.1)
+      vite: 6.3.5(jiti@1.21.6)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.11.6(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1)):
+  vite-plugin-solid@2.11.6(solid-js@1.9.7)(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0)):
     dependencies:
       '@babel/core': 7.23.5
       '@types/babel__core': 7.20.5
@@ -2387,12 +2400,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.7
       solid-refresh: 0.6.3(solid-js@1.9.7)
-      vite: 6.3.5(jiti@1.21.6)(yaml@2.7.1)
-      vitefu: 1.0.4(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1))
+      vite: 6.3.5(jiti@1.21.6)(yaml@2.8.0)
+      vitefu: 1.0.4(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.5(jiti@1.21.6)(yaml@2.7.1):
+  vite@6.3.5(jiti@1.21.6)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -2403,11 +2416,11 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
       jiti: 1.21.6
-      yaml: 2.7.1
+      yaml: 2.8.0
 
-  vitefu@1.0.4(vite@6.3.5(jiti@1.21.6)(yaml@2.7.1)):
+  vitefu@1.0.4(vite@6.3.5(jiti@1.21.6)(yaml@2.8.0)):
     optionalDependencies:
-      vite: 6.3.5(jiti@1.21.6)(yaml@2.7.1)
+      vite: 6.3.5(jiti@1.21.6)(yaml@2.8.0)
 
   wrap-ansi@9.0.0:
     dependencies:
@@ -2417,4 +2430,4 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  yaml@2.7.1: {}
+  yaml@2.8.0: {}
