@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "solid-app-router": "0.4.2",
-    "solid-devtools": "0.34.0",
+    "solid-devtools": "0.34.1",
     "solid-js": "1.9.7",
     "solid-transition-group": "0.3.0"
   },
