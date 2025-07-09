@@ -32,7 +32,7 @@
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-packagejson": "2.5.18",
-    "prettier-plugin-tailwindcss": "0.6.13",
+    "prettier-plugin-tailwindcss": "0.6.14",
     "@biomejs/biome": "2.1.1",
     "sort-package-json": "3.4.0",
     "tailwindcss": "4.1.11",
