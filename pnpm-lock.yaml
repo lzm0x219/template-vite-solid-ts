@@ -13,7 +13,7 @@ importers:
         version: 0.4.2(solid-js@1.9.9)
       solid-devtools:
         specifier: 0.34.3
-        version: 0.34.3(solid-js@1.9.9)(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1))
+        version: 0.34.3(solid-js@1.9.9)(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1))
       solid-js:
         specifier: 1.9.9
         version: 1.9.9
@@ -58,14 +58,14 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
       vite:
-        specifier: 7.1.6
-        version: 7.1.6(jiti@1.21.6)(yaml@2.8.1)
+        specifier: 7.1.7
+        version: 7.1.7(jiti@1.21.6)(yaml@2.8.1)
       vite-plugin-mkcert:
         specifier: 1.17.8
-        version: 1.17.8(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1))
+        version: 1.17.8(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1))
       vite-plugin-solid:
         specifier: 2.11.8
-        version: 2.11.8(solid-js@1.9.9)(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1))
+        version: 2.11.8(solid-js@1.9.9)(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1))
 
 packages:
 
@@ -1128,8 +1128,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@7.1.6:
-    resolution: {integrity: sha512-SRYIB8t/isTwNn8vMB3MR6E+EQZM/WG1aKmmIUCfDXfVvKfc20ZpamngWHKzAmmu9ppsgxsg4b2I7c90JZudIQ==}
+  vite@7.1.7:
+    resolution: {integrity: sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1984,7 +1984,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.9
 
-  solid-devtools@0.34.3(solid-js@1.9.9)(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1)):
+  solid-devtools@0.34.3(solid-js@1.9.9)(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1)):
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
@@ -1993,7 +1993,7 @@ snapshots:
       '@solid-devtools/shared': 0.20.0(solid-js@1.9.9)
       solid-js: 1.9.9
     optionalDependencies:
-      vite: 7.1.6(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.1.7(jiti@1.21.6)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -2074,16 +2074,16 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-mkcert@1.17.8(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1)):
+  vite-plugin-mkcert@1.17.8(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1)):
     dependencies:
       axios: 1.8.3(debug@4.4.0)
       debug: 4.4.0
       picocolors: 1.1.1
-      vite: 7.1.6(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.1.7(jiti@1.21.6)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.11.8(solid-js@1.9.9)(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1)):
+  vite-plugin-solid@2.11.8(solid-js@1.9.9)(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1)):
     dependencies:
       '@babel/core': 7.27.4
       '@types/babel__core': 7.20.5
@@ -2091,12 +2091,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.9
       solid-refresh: 0.6.3(solid-js@1.9.9)
-      vite: 7.1.6(jiti@1.21.6)(yaml@2.8.1)
-      vitefu: 1.0.4(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1))
+      vite: 7.1.7(jiti@1.21.6)(yaml@2.8.1)
+      vitefu: 1.0.4(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.1.6(jiti@1.21.6)(yaml@2.8.1):
+  vite@7.1.7(jiti@1.21.6)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2109,9 +2109,9 @@ snapshots:
       jiti: 1.21.6
       yaml: 2.8.1
 
-  vitefu@1.0.4(vite@7.1.6(jiti@1.21.6)(yaml@2.8.1)):
+  vitefu@1.0.4(vite@7.1.7(jiti@1.21.6)(yaml@2.8.1)):
     optionalDependencies:
-      vite: 7.1.6(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.1.7(jiti@1.21.6)(yaml@2.8.1)
 
   wrap-ansi@9.0.0:
     dependencies:
