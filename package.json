@@ -36,7 +36,7 @@
     "@biomejs/biome": "2.2.4",
     "sort-package-json": "3.4.0",
     "tailwindcss": "4.1.13",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "vite": "7.1.7",
     "vite-plugin-mkcert": "1.17.8",
     "vite-plugin-solid": "2.11.8"
