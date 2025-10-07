@@ -12,8 +12,8 @@ importers:
         specifier: 0.4.2
         version: 0.4.2(solid-js@1.9.9)
       solid-devtools:
-        specifier: 0.34.3
-        version: 0.34.3(solid-js@1.9.9)(vite@7.1.9(jiti@1.21.6)(yaml@2.8.1))
+        specifier: 0.34.4
+        version: 0.34.4(solid-js@1.9.9)(vite@7.1.9(jiti@1.21.6)(yaml@2.8.1))
       solid-js:
         specifier: 1.9.9
         version: 1.9.9
@@ -1071,11 +1071,11 @@ packages:
     peerDependencies:
       solid-js: ^1.3.5
 
-  solid-devtools@0.34.3:
-    resolution: {integrity: sha512-ZQua959n+Zu3sLbm9g0IRjYUb1YYlYbu83PWLRoKbSsq0a3ItQNhnS2OBU7rQNmOKZiMexNo9Z3izas9BcOKDg==}
+  solid-devtools@0.34.4:
+    resolution: {integrity: sha512-/s/pPTLvTkuXGZhLfsuvp7ge/cdpEwrUPoRwoJPYgz74GTUSb5Ozi2V6Z6HkO0ILT7hXB04j16HbH1aaP5VFOA==}
     peerDependencies:
       solid-js: ^1.9.0
-      vite: ^2.2.3 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
+      vite: ^2.2.3 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
     peerDependenciesMeta:
       vite:
         optional: true
@@ -2073,7 +2073,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.9
 
-  solid-devtools@0.34.3(solid-js@1.9.9)(vite@7.1.9(jiti@1.21.6)(yaml@2.8.1)):
+  solid-devtools@0.34.4(solid-js@1.9.9)(vite@7.1.9(jiti@1.21.6)(yaml@2.8.1)):
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
