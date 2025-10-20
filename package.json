@@ -35,7 +35,7 @@
     "prettier-plugin-tailwindcss": "0.7.1",
     "@biomejs/biome": "2.2.6",
     "sort-package-json": "3.4.0",
-    "tailwindcss": "4.1.14",
+    "tailwindcss": "4.1.15",
     "typescript": "5.9.3",
     "vite": "7.1.11",
     "vite-plugin-mkcert": "1.17.9",
