@@ -37,7 +37,7 @@
     "sort-package-json": "3.5.0",
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
-    "vite": "7.2.6",
+    "vite": "7.2.7",
     "vite-plugin-mkcert": "1.17.9",
     "vite-plugin-solid": "2.11.10"
   }
