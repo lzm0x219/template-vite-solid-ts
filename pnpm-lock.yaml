@@ -13,7 +13,7 @@ importers:
         version: 0.4.2(solid-js@1.9.11)
       solid-devtools:
         specifier: 0.34.5
-        version: 0.34.5(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1))
+        version: 0.34.5(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2))
       solid-js:
         specifier: 1.9.11
         version: 1.9.11
@@ -34,8 +34,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0
       lint-staged:
-        specifier: 16.2.7
-        version: 16.2.7
+        specifier: 16.3.0
+        version: 16.3.0
       postcss:
         specifier: 8.5.6
         version: 8.5.6
@@ -59,13 +59,13 @@ importers:
         version: 5.9.3
       vite:
         specifier: 7.3.1
-        version: 7.3.1(jiti@1.21.6)(yaml@2.8.1)
+        version: 7.3.1(jiti@1.21.6)(yaml@2.8.2)
       vite-plugin-mkcert:
         specifier: 1.17.10
-        version: 1.17.10(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1))
+        version: 1.17.10(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2))
       vite-plugin-solid:
         specifier: 2.11.10
-        version: 2.11.10(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1))
+        version: 2.11.10(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2))
 
 packages:
 
@@ -670,8 +670,8 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  commander@14.0.2:
-    resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
+  commander@14.0.3:
+    resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
     engines: {node: '>=20'}
 
   convert-source-map@2.0.0:
@@ -864,8 +864,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  lint-staged@16.2.7:
-    resolution: {integrity: sha512-lDIj4RnYmK7/kXMya+qJsmkRFkGolciXjrsZ6PC25GdTfWOAWetR0ZbsNXRAj1EHHImRSalc+whZFg56F5DVow==}
+  lint-staged@16.3.0:
+    resolution: {integrity: sha512-YVHHy/p6U4/No9Af+35JLh3umJ9dPQnGTvNCbfO/T5fC60us0jFnc+vw33cqveI+kqxIFJQakcMVTO2KM+653A==}
     engines: {node: '>=20.17'}
     hasBin: true
 
@@ -933,11 +933,6 @@ packages:
   picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
-
-  pidtree@0.6.0:
-    resolution: {integrity: sha512-eG2dWTVw5bzqGRztnHExczNxt5VGsE6OwTeCG3fdUf9KBsZzO3R5OIIIzWR+iZA0NtZ+RDVdaoE2dK1cn6jH4g==}
-    engines: {node: '>=0.10'}
-    hasBin: true
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -1120,6 +1115,10 @@ packages:
   tailwindcss@4.2.1:
     resolution: {integrity: sha512-/tBrSQ36vCleJkAOsy9kbNTgaxvGbyOamC30PRePTQe/o1MFwEKHQk4Cn7BNGaPtjp+PuUrByJehM1hgxfq4sw==}
 
+  tinyexec@1.0.2:
+    resolution: {integrity: sha512-W/KYk+NFhkmsYpuHq5JykngiOCnxeVL8v8dFnqxSD8qEEdRfXk1SDM6JzNqcERbcGYj9tMrDQBYV9cjgnunFIg==}
+    engines: {node: '>=18'}
+
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
@@ -1213,8 +1212,8 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
-  yaml@2.8.1:
-    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+  yaml@2.8.2:
+    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -1737,7 +1736,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  commander@14.0.2: {}
+  commander@14.0.3: {}
 
   convert-source-map@2.0.0: {}
 
@@ -1905,15 +1904,15 @@ snapshots:
 
   json5@2.2.3: {}
 
-  lint-staged@16.2.7:
+  lint-staged@16.3.0:
     dependencies:
-      commander: 14.0.2
+      commander: 14.0.3
       listr2: 9.0.5
       micromatch: 4.0.8
       nano-spawn: 2.0.0
-      pidtree: 0.6.0
       string-argv: 0.3.2
-      yaml: 2.8.1
+      tinyexec: 1.0.2
+      yaml: 2.8.2
 
   listr2@9.0.5:
     dependencies:
@@ -1972,8 +1971,6 @@ snapshots:
   picomatch@2.3.1: {}
 
   picomatch@4.0.3: {}
-
-  pidtree@0.6.0: {}
 
   postcss-value-parser@4.2.0: {}
 
@@ -2051,7 +2048,7 @@ snapshots:
     dependencies:
       solid-js: 1.9.11
 
-  solid-devtools@0.34.5(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1)):
+  solid-devtools@0.34.5(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2)):
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
@@ -2060,7 +2057,7 @@ snapshots:
       '@solid-devtools/shared': 0.20.0(solid-js@1.9.11)
       solid-js: 1.9.11
     optionalDependencies:
-      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -2128,6 +2125,8 @@ snapshots:
 
   tailwindcss@4.2.1: {}
 
+  tinyexec@1.0.2: {}
+
   tinyglobby@0.2.15:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2147,16 +2146,16 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-mkcert@1.17.10(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1)):
+  vite-plugin-mkcert@1.17.10(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2)):
     dependencies:
       axios: 1.13.5(debug@4.4.3)
       debug: 4.4.3
       picocolors: 1.1.1
-      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.11.10(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1)):
+  vite-plugin-solid@2.11.10(solid-js@1.9.11)(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2)):
     dependencies:
       '@babel/core': 7.27.4
       '@types/babel__core': 7.20.5
@@ -2164,12 +2163,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.11
       solid-refresh: 0.6.3(solid-js@1.9.11)
-      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.1)
-      vitefu: 1.0.4(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1))
+      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.2)
+      vitefu: 1.0.4(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.3.1(jiti@1.21.6)(yaml@2.8.1):
+  vite@7.3.1(jiti@1.21.6)(yaml@2.8.2):
     dependencies:
       esbuild: 0.27.1
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2180,11 +2179,11 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
       jiti: 1.21.6
-      yaml: 2.8.1
+      yaml: 2.8.2
 
-  vitefu@1.0.4(vite@7.3.1(jiti@1.21.6)(yaml@2.8.1)):
+  vitefu@1.0.4(vite@7.3.1(jiti@1.21.6)(yaml@2.8.2)):
     optionalDependencies:
-      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.1)
+      vite: 7.3.1(jiti@1.21.6)(yaml@2.8.2)
 
   wrap-ansi@9.0.0:
     dependencies:
@@ -2194,4 +2193,4 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  yaml@2.8.1: {}
+  yaml@2.8.2: {}
