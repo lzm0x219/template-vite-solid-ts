@@ -38,7 +38,7 @@
     "tailwindcss": "4.2.2",
     "typescript": "6.0.2",
     "vite": "8.0.8",
-    "vite-plugin-mkcert": "1.17.12",
+    "vite-plugin-mkcert": "2.0.0",
     "vite-plugin-solid": "2.11.12"
   }
 }
