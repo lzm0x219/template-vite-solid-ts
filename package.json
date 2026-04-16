@@ -30,7 +30,7 @@
     "is-ci": "4.1.0",
     "lint-staged": "16.4.0",
     "postcss": "8.5.10",
-    "prettier": "3.8.2",
+    "prettier": "3.8.3",
     "prettier-plugin-packagejson": "3.0.2",
     "prettier-plugin-tailwindcss": "0.7.2",
     "@biomejs/biome": "2.4.12",
