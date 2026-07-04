@@ -26,7 +26,7 @@ importers:
         version: 2.5.2
       autoprefixer:
         specifier: 10.5.2
-        version: 10.5.2(postcss@8.5.15)
+        version: 10.5.2(postcss@8.5.16)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -37,8 +37,8 @@ importers:
         specifier: 17.0.8
         version: 17.0.8
       postcss:
-        specifier: 8.5.15
-        version: 8.5.15
+        specifier: 8.5.16
+        version: 8.5.16
       prettier:
         specifier: 3.9.1
         version: 3.9.1
@@ -758,8 +758,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+  postcss@8.5.16:
+    resolution: {integrity: sha512-vuwillviilfKZsg0VGj5R/YwwcHx4SLsIOI/7K6mQkWx+l5cUHTjj5g0AasTBcyXsbfTgrwsUNmVUb5xVwyPwg==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier-plugin-packagejson@3.0.2:
@@ -1454,13 +1454,13 @@ snapshots:
 
   ansi-styles@6.2.3: {}
 
-  autoprefixer@10.5.2(postcss@8.5.15):
+  autoprefixer@10.5.2(postcss@8.5.16):
     dependencies:
       browserslist: 4.28.4
       caniuse-lite: 1.0.30001799
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.15
+      postcss: 8.5.16
       postcss-value-parser: 4.2.0
 
   babel-plugin-jsx-dom-expressions@0.37.9(@babel/core@7.27.4(supports-color@10.2.2)):
@@ -1683,7 +1683,7 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.15:
+  postcss@8.5.16:
     dependencies:
       nanoid: 3.3.12
       picocolors: 1.1.1
@@ -1895,7 +1895,7 @@ snapshots:
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
-      postcss: 8.5.15
+      postcss: 8.5.16
       rolldown: 1.1.2
       tinyglobby: 0.2.17
     optionalDependencies:
