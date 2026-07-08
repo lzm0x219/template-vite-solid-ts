@@ -33,7 +33,7 @@
     "prettier": "3.9.4",
     "prettier-plugin-packagejson": "3.0.2",
     "prettier-plugin-tailwindcss": "0.8.0",
-    "@biomejs/biome": "2.5.2",
+    "@biomejs/biome": "2.5.3",
     "sort-package-json": "4.0.0",
     "tailwindcss": "4.3.2",
     "typescript": "6.0.3",
